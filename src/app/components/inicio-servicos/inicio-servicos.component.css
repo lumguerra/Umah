@@ -1,0 +1,15 @@
+.container {
+    align-items: center;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative; 
+    border-bottom: 1px solid #C1C1C1;;
+}
+.sub-container{
+    width: 100%;
+    background-color: blueviolet;
+    height: 50vh;
+}

@@ -4,7 +4,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    position: relative; /* Adicione position: relative; para .container */
+    position: relative;
 }
 
 .sub-container {
@@ -42,9 +42,8 @@
 }
 
 .about-container {
-    margin-left: 6vw;
     text-align: left;
-    padding-left: 10px;
+    padding-left: 100px;
 }
 
 .sub-text {
