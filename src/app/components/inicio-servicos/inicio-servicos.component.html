@@ -1,5 +1,20 @@
-<div class="container"> 
+<div class="container">
     <div class="sub-container">
+        <div class="text-area">
+            <p class="title">Serviços</p>
+            <div class="details-area">
+                <p class="details">Mais detalhes sobre os serviços</p>
+                <img src="../../../assets/arrow-right.png" />
+            </div>
+        </div>
+        <div class="services-cards">
+            <div class="card" *ngFor="let service of services">
+              <div class="mt-20 ml-20"><img [src]="service.image" /></div>
+              <div class="card-title ml-20">{{ service.title }}</div>
+              <div class="card-text ml-20">{{ service.text }}</div>
+            </div>
+          </div>
+          
         
     </div>
 </div>

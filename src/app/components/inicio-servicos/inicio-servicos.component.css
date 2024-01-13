@@ -1,15 +1,93 @@
 .container {
+    margin-top: 10vh;
     align-items: center;
-    padding-top: 20vh;
     padding-bottom: 20vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    position: relative; 
-    border-bottom: 1px solid #C1C1C1;;
+    position: relative;
+    border-bottom: 1px solid #C1C1C1;
+    ;
 }
-.sub-container{
-    width: 100%;
-    background-color: blueviolet;
+
+.sub-container {
     height: 50vh;
+}
+
+.text-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    color: #000;
+    text-align: left;
+    font-family: Archia;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.details-area {
+    display: flex;
+    align-items: center;
+}
+
+.details {
+    color: #8496A7;
+    text-align: center;
+    font-family: Archia;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 5px;
+}
+
+.services-cards {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 368px;
+    height: 187px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #D8DAD9;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.ml-20 {
+    margin-left: 20px;
+}
+
+.card-title {
+    color: #647788;
+    font-family: Archia;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card-text {
+    color: #647788;
+    font-family: Archia;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 289px;
+    height: 42px;
+    flex-shrink: 0;
 }
