@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="title">Horários de funcionamento</div>
+    <div class="sub-container">
+        <div class="horarios">
+            <div *ngFor="let horario of horariosSemana" class="dia-semana">
+                <p class="nome-dia">{{ horario.dia }}</p>
+                <p class="horario-func">{{ horario.horario }}</p>
+              </div>
+          </div>
+        <div class="card-photo">
+            <div class="brown-container">
+                <div class="photo-container">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

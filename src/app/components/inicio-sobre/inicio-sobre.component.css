@@ -5,6 +5,7 @@
     flex-wrap: wrap;
     justify-content: center;
     position: relative;
+    border-bottom: 1px solid #C1C1C1;
 }
 
 .sub-container {

@@ -1,0 +1,76 @@
+.container {
+    margin-top: 10vh;
+    align-items: center;
+    padding-bottom: 20vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    border-bottom: 1px solid #C1C1C1;
+    flex-direction: column;
+}
+
+.sub-container {
+    margin-top: 75px;
+    display: flex;
+}
+
+.title {
+    color: #000;
+    text-align: center;
+    font-family: Archia;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.brown-container {
+    width: 502px;
+    height: 370px;
+    border-radius: 20px;
+    background: #B5ACA3;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+}
+
+.photo-container {
+    width: 502px;
+    height: 370px;
+    border-radius: 20px;
+    background: white;
+    background-image: url('../../../assets/umah-clinic-sobre.png');
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 41%;
+    left: calc(50% + 21rem);
+    /* Ajuste conforme necessário */
+    transform: translate(-50%, -50%);
+    /* Centraliza vertical e horizontalmente */
+}
+
+.horarios {
+    padding-right: 50px;
+    width: 570px;
+}
+
+.dia-semana {
+    border-bottom: 1px solid #B5ACA3;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nome-dia {
+    width: 500px;
+}
+
+.horario-func {
+    color: #778797;
+    text-align: left;
+    min-width: 225px;
+}
+
+.card-photo{
+    padding-top: 70px;
+}
