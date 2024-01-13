@@ -1,0 +1,65 @@
+.container {
+    align-items: center;
+    padding-bottom: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    border-bottom: 1px solid #C1C1C1;
+    flex-direction: column;
+    background-color: #B5ACA3;
+}
+
+.sub-container {
+    margin-top: 75px;
+    display: flex;
+}
+
+.title {
+    margin-top: 94px;
+    color: #FFF;
+    text-align: center;
+    font-family: Archia;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sub-title {
+    margin-top: 26px;
+    color: #FFF;
+    max-width: 864px;
+    text-align: center;
+    font-family: Archia;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.map-area {
+    min-height: 70vh;
+    max-width: 1240px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shadow-area {
+    border-radius: 20px;
+    background-color: #F6F6F6;
+    width: 1181px;
+    height: 389px;
+    flex-shrink: 0;
+}
+
+.map-container {
+    width: 1175px;
+    height: 395px;
+    flex-shrink: 0;
+    background-image: url("../../../assets/fake-map.png");
+    margin-left: 30px;
+    margin-top: -40px;
+}
