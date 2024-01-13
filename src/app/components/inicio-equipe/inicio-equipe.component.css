@@ -1,0 +1,80 @@
+.container {
+    align-items: center;
+    padding-bottom: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    border-bottom: 1px solid #C1C1C1;
+    flex-direction: column;
+}
+
+.title {
+    margin-top: 94px;
+    text-align: center;
+    font-family: Archia;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sub-title {
+    margin-top: 26px;
+    max-width: 419px;
+    text-align: center;
+    font-family: Archia;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.equipe-area{
+    display: flex;
+}
+
+.membro {
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  .membro img {
+    width: 25vw;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .membro-nome {
+    color: #000;
+    text-align: center;
+    font-family: Archia;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .membro-especialidade {
+    color: #8495A7;
+    text-align: center;
+    font-family: Archia;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .membro-texto {
+    margin-top: 20px;
+    color: #9C9C9C;
+    text-align: center;
+    font-family: Archia;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 332px;;
+  }
+  

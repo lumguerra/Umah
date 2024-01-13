@@ -1,1 +1,13 @@
-<p>inicio-equipe works!</p>
+<div class="container">
+    <p class="title">Equipe</p>
+    <p class="sub-title">{{ subTitle }}</p>
+    <div class="equipe-area">
+      <div class="membro" *ngFor="let membro of equipe">
+        <img [src]="membro.imagemUrl" alt="Foto de {{ membro.nome }}" />
+        <p class="membro-nome">{{ membro.nome }}</p>
+        <p class="membro-especialidade">{{ membro.especialidade }}</p>
+        <p class="membro-texto">{{ membro.texto }}</p>
+      </div>
+    </div>
+  </div>
+  
