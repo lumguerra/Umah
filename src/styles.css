@@ -5,8 +5,14 @@
     font-weight: normal;
   }
 
+  h1,p{
+    margin: 0;
+  }
   body {
     margin: 0;
     font-family: 'Archia', sans-serif;
   }
 
+.col{
+  flex-direction: column !important;
+}

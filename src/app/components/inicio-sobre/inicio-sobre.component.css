@@ -1,0 +1,70 @@
+.container {
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative; /* Adicione position: relative; para .container */
+}
+
+.sub-container {
+    position: relative; 
+}
+
+.brown-container {
+    width: 502px;
+    height: 370px;
+    border-radius: 20px;
+    background: #B5ACA3;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+}
+
+.photo-container {
+    width: 502px;
+    height: 370px;
+    border-radius: 20px;
+    background: white;
+    background-image: url('../../../assets/umah-clinic-sobre.png');
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+    position: absolute; /* Altere para position: absolute; */
+    top: -30px; 
+    right: -30px;
+}
+
+.text-main {
+    color: #B5ACA3;
+    text-align: left;
+    font-family: Archia;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.about-container {
+    margin-left: 6vw;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.sub-text {
+    margin-top: 3vh;
+    width: 550px;
+}
+
+.main-button{
+    margin-top: 40px;
+  }
+  .main-button button {
+    font-size: 18px;
+    display: inline-flex;
+    padding: 20px 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    background: #B5ACA3;
+    color: white;
+    border: none;
+    cursor: pointer; 
+  }
