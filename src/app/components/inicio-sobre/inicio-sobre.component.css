@@ -30,6 +30,8 @@
     position: absolute; /* Altere para position: absolute; */
     top: -30px; 
     right: -30px;
+    background-size: cover; 
+    background-position: center; 
 }
 
 .text-main {
@@ -67,4 +69,51 @@
     color: white;
     border: none;
     cursor: pointer; 
+  }
+
+  
+  @media screen and (max-width: 768px) {
+  
+    .container {
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+        border-bottom: 1px solid #C1C1C1;
+    }
+
+    .brown-container {
+        margin-top: 5vh;
+
+        width: 75vw;
+        height: 25vh;
+
+    }
+    
+    .photo-container {
+        margin-top: 5vh;
+
+        width: 75vw;
+        height: 25vh;
+ 
+    }
+    .about-container {
+        text-align: left;
+        padding-left: 0;
+        width: 100%;
+        padding-right: 5vw;
+        padding-left: 5vw;
+    }
+    .text-main{
+        margin-top: 5vh;
+    }
+    .sub-text{
+        width: 100%;
+    }
+    .main-button button{
+        width: 100%;
+    }
+
   }

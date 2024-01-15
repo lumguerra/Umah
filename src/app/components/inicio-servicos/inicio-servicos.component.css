@@ -90,3 +90,53 @@
     height: 42px;
     flex-shrink: 0;
 }
+
+.mobile-details{
+    display: none;
+}
+@media screen and (max-width: 768px) {
+    .container {
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 0;
+        margin-right: 0;
+        height: auto;
+    }
+
+    .sub-container {
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 300px;
+    }
+    .text-area{
+        margin-top: 5vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .details-area{
+        display: none;
+    }
+
+    .services-cards {
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+        flex: wrap;
+    }
+    .card{
+        width: 100%;
+        margin-top: 5vh;
+    }
+    .mobile-details{
+        margin-top: 5vh;
+        cursor: pointer;
+        width: 100%;
+        display: block;
+        margin-bottom: 5vh;
+    }
+  
+}
