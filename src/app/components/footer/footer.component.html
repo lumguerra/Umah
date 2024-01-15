@@ -1,0 +1,32 @@
+<div class="footer-container">
+
+    <div class="coluna logo">
+        <img [src]="logoPath" alt="Logo" />
+        <p>{{textCol1}}</p>
+    </div>
+
+    <div class="coluna horarios">
+        <p class="titulo">{{ horariosTitulo }}</p>
+        <div *ngFor="let horario of horariosTexto">
+            <p class="horarios-list">{{ horario }}</p>
+        </div>
+    </div>
+
+    <div class="coluna">
+        <p class="titulo">{{ servicosTitulo }}</p>
+        <div *ngFor="let servico of servicosTexto">
+            <p class="horarios-list">{{ servico }}</p>
+        </div>
+    </div>
+
+    <div class="coluna">
+        <p class="titulo">{{ contatoTitulo }}</p>
+        <div class="icones-contato">
+            <img [src]="instagramIcon" alt="Instagram" />
+            <img [src]="facebookIcon" alt="Facebook" />
+        </div>
+        <p class="horarios-list" style="margin-top: 10px;">{{email}}</p>
+        <p class="horarios-list">{{endereco}}</p>
+        <p class="horarios-list">{{telefone}}</p>
+    </div>
+</div>

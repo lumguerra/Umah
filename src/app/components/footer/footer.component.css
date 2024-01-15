@@ -1,0 +1,43 @@
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #8495A7;
+  color: #fff;
+  padding-left: 12vw;
+  padding-right: 12vw;
+  padding-top: 11vh;
+  padding-bottom: 11vh;
+
+}
+
+.coluna {
+  padding: 10px;
+  max-width: 250px;
+}
+
+.horarios-list {
+  padding-bottom: 10px;
+  font-size: 12px;
+}
+
+.logo {
+  color: #FFF;
+  font-family: Archia;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 230px;
+}
+
+.logo img {
+  width: 100px;
+  height: auto;
+  margin-bottom: 26px;
+}
+
+.titulo {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 26px;
+}

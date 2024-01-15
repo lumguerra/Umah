@@ -1,3 +1,4 @@
+import { FooterComponent } from './../../components/footer/footer.component';
 import { InicioEquipeComponent } from './../../components/inicio-equipe/inicio-equipe.component';
 import { InicioMapaComponent } from './../../components/inicio-mapa/inicio-mapa.component';
 import { HorarioFuncionamentoComponent } from './../../components/horario-funcionamento/horario-funcionamento.component';
@@ -16,7 +17,8 @@ import { NavbarComponent } from '../../components/navbar/navbar.component';
     InicioServicosComponent,
     HorarioFuncionamentoComponent,
     InicioMapaComponent,
-    InicioEquipeComponent
+    InicioEquipeComponent,
+    FooterComponent
   ],
   templateUrl: './inicio.component.html',
   styleUrl: './inicio.component.css'
