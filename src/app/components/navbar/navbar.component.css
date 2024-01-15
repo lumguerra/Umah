@@ -17,11 +17,19 @@
   }
   
   .links a {
+    text-decoration: none;
     margin-left: 30px;
     color: #8496A7;
     font-weight: bold;
     font-size: 16px;
+    transition: font-size 0.3s, color 0.3s
   }
 
+  .links a:hover {
+    color: #AB9A89; 
+    font-size: 16px; 
+    cursor: pointer;
+  }
+  
  
   
