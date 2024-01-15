@@ -10,10 +10,17 @@ import { Router } from '@angular/router';
   styleUrl: './navbar.component.css'
 })
 export class NavbarComponent {
+  isMobile = false;
 
-  constructor(private router:Router){}
+  constructor(private router:Router){
+    this.isMobile = this.checkIfMobile();
+  }
   navigateTo(route: string): void {
       this.router.navigateByUrl(route);
+  }
+
+  private checkIfMobile(): boolean {
+      return window.innerWidth < 768; 
   }
 
 }

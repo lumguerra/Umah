@@ -55,3 +55,28 @@
     border: none;
     cursor: pointer; 
   }
+
+
+  @media screen and (max-width: 768px) {
+  
+    .sub-container {
+      width: 100%;
+      text-align: center;
+    }
+
+    .content{
+      width: 75vw;
+      margin: 0;
+      padding-left: 5vw;
+      padding-right: 5vw;
+    }
+
+    .sub-text-main{
+      text-align: left;
+    }
+    .main-button button {
+      width: 100%;
+      font-size: 14px;
+      white-space: nowrap;
+    }
+  }

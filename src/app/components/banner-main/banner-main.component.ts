@@ -9,5 +9,9 @@ import { Component } from '@angular/core';
 })
 export class BannerMainComponent {
   mainText:String = 'Na busca pelo equilíbrio, escolha os melhores cuidados.'
-
+  isMobile = this.checkIfMobile();
+  
+  private checkIfMobile(): boolean {
+    return window.innerWidth < 768; 
+}
 }
