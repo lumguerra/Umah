@@ -62,6 +62,7 @@
     .sub-container {
       width: 100%;
       text-align: center;
+      flex-wrap: wrap;
     }
 
     .content{
