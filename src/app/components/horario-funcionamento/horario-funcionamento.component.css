@@ -74,3 +74,37 @@
 .card-photo{
     padding-top: 70px;
 }
+
+@media screen and (max-width: 768px) {
+  
+    .sub-container {
+      width: 100%;
+      text-align: center;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .horarios{
+        width: 100%;
+        padding-right: 0;
+        margin-right: 5vw;
+        text-align: left;
+        max-width: 90vw;
+    }
+
+    .brown-container{
+        width: 100%;
+        
+        
+    }
+    .photo-container{
+        width: 85vw;
+        position:relative;
+        transform: none;
+        left: 0;
+        top: 0;
+        margin-left: 40px;
+    }
+
+
+}

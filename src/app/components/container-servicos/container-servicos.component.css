@@ -44,3 +44,36 @@
     top: -30px;
     right: -30px;
 }
+
+@media screen and (max-width: 768px) {
+    .container{
+        flex-wrap: wrap;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+    }
+    .sub-container{
+        margin-top: 5vh;
+        margin-bottom: 0;
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        padding-right: 5vw;
+        padding-left: 5vw;
+        margin-left: 0;
+        align-items: center;
+    }
+    p{
+        width: 100%;
+    }
+    .brown-container{
+        width: 80%;
+    }
+    .photo-container{
+        top: 0;
+        left: 10vw;
+        width: 80%;
+    }
+}
