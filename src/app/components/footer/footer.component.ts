@@ -9,6 +9,7 @@ import { Component } from '@angular/core';
   styleUrl: './footer.component.css'
 })
 export class FooterComponent {
+  isMobile = this.checkIfMobile();
   textCol1= "Lorem Ipsum is simply dummy text of the printing and typesettingLorem Ipsum is simply dummy text of the printing and typesettingLorem Ipsum is simply dummy text of the printing and typesetting";
   logoPath = "../../../assets/umah-white-logo.png";
 
@@ -41,5 +42,9 @@ export class FooterComponent {
   email = "contato@umah.com";
   endereco = "Rua das Flores, 77 - Jardim Social - Curitiba/PR"
   telefone = "(41) 97777-7777 / (41) 97777-7777"
+
+  private checkIfMobile(): boolean {
+    return window.innerWidth < 768; 
+}
 
 }

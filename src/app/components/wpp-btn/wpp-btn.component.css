@@ -1,0 +1,20 @@
+.wpp-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 65px;
+    height: 65px;
+    background-color: #25d366; 
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .wpp-btn img {
+    width: 80%;
+    height: auto;
+  }
+  

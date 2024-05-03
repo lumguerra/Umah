@@ -1,4 +1,4 @@
-<div class="footer-container">
+<div *ngIf="!isMobile" class="footer-container">
 
     <div class="coluna logo">
         <img [src]="logoPath" alt="Logo" />
@@ -29,4 +29,25 @@
         <p class="horarios-list">{{endereco}}</p>
         <p class="horarios-list">{{telefone}}</p>
     </div>
+</div>
+
+<div  *ngIf="isMobile" class="mobile-footer">
+    <div>
+        <img [src]="logoPath" alt="Logo" />
+        <p style="margin-top:2vh;">{{textCol1}}</p>
+    </div>
+
+    <div style="margin-top:5vh ;">
+        <p class="mtitulo">{{ contatoTitulo }}</p>
+        <div class="icones-contato">
+            <img [src]="instagramIcon" alt="Instagram" />
+            <img [src]="facebookIcon" alt="Facebook" />
+        </div>
+        <p class="" style="margin-top: 10px;">{{email}}</p>
+        <p class=""  style="margin-top: 10px;">{{endereco}}</p>
+        <p class=""  style="margin-top: 10px;">{{telefone}}</p>
+    </div>
+
+
+
 </div>

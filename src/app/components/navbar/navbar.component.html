@@ -1,5 +1,5 @@
 <div class="navbar">
-    <img src="../../../assets/umah-logo.png" alt="Logo" class="logo" />
+    <img src="../../../assets/umah-logo.png" alt="Logo" class="logo" (click)="navigateTo('/')" />
     <div *ngIf="!isMobile"  class="links">
       <a (click)="navigateTo('/')">INÍCIO</a>
       <a (click)="navigateTo('/servicos')">SERVIÇOS</a>

@@ -1,3 +1,4 @@
+import { WppBtnComponent } from './../../components/wpp-btn/wpp-btn.component';
 import { FooterComponent } from './../../components/footer/footer.component';
 import { InicioEquipeComponent } from './../../components/inicio-equipe/inicio-equipe.component';
 import { InicioMapaComponent } from './../../components/inicio-mapa/inicio-mapa.component';
@@ -18,11 +19,14 @@ import { NavbarComponent } from '../../components/navbar/navbar.component';
     HorarioFuncionamentoComponent,
     InicioMapaComponent,
     InicioEquipeComponent,
-    FooterComponent
+    FooterComponent,
+    WppBtnComponent
   ],
   templateUrl: './inicio.component.html',
   styleUrl: './inicio.component.css'
 })
 export class InicioComponent {
+
+
 
 }

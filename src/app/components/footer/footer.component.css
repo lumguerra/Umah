@@ -41,3 +41,25 @@
   font-size: 20px;
   margin-bottom: 26px;
 }
+
+
+.mobile-footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #8495A7;
+  color: #fff;
+  padding-left: 12vw;
+  padding-right: 12vw;
+  padding-top: 11vh;
+  padding-bottom: 11vh;
+}
+
+.mtitulo{
+  font-weight: bold;
+  font-size: 20px;
+}
+.m-horarios-list{
+  font-size: 14px;
+  padding-top: 10px;
+}
