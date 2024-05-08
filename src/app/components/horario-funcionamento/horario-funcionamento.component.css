@@ -23,6 +23,9 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }
 
 .brown-container {
@@ -71,20 +74,53 @@
     min-width: 225px;
 }
 
-.card-photo{
+.card-photo {
     padding-top: 70px;
 }
 
-@media screen and (max-width: 768px) {
-  
-    .sub-container {
-      width: 100%;
-      text-align: center;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
+@media screen and (max-width: 1220px) {
+
+
+    .brown-container {
+        width: 100%;
     }
-    .horarios{
+
+    .card-photo {
+        padding-top: 70px;
+        display: flex;
+        flex-shrink: 1;
+    }
+
+    .photo-container {
+        width: 400px;
+        height: 370px;
+        position: relative;
+        top: 41%;
+        left: 230px;
+        transform: translate(-50%, -50%);
+    }
+
+    .horarios {
+        width: 400px;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .card-photo{
+        margin: 30px;
+    }
+    
+    .sub-container {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .horarios {
         width: 100%;
         padding-right: 0;
         margin-right: 5vw;
@@ -92,18 +128,18 @@
         max-width: 90vw;
     }
 
-    .brown-container{
+    .brown-container {
         width: 100%;
-        
-        
+        margin-right: 30px;
     }
-    .photo-container{
-        width: 85vw;
-        position:relative;
+
+    .photo-container {
+        display: flex;
+        width: 90vw;
+        position: relative;
         transform: none;
-        left: 0;
-        top: 0;
-        margin-left: 40px;
+        left: 30px;
+        top: 30px;        
     }
 
 

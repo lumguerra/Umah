@@ -1,3 +1,7 @@
+body {
+    border-bottom: 1px solid #c1c1c1;
+}
+
 .container {
     padding-top: 20vh;
     padding-bottom: 10vh;
@@ -5,11 +9,11 @@
     flex-wrap: wrap;
     justify-content: center;
     position: relative;
-    border-bottom: 1px solid #C1C1C1;
+
 }
 
 .sub-container {
-    position: relative; 
+    position: relative;
 }
 
 .brown-container {
@@ -27,11 +31,12 @@
     background: white;
     background-image: url('../../../assets/umah-clinic-sobre.png');
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
-    position: absolute; /* Altere para position: absolute; */
-    top: -30px; 
+    position: absolute;
+    /* Altere para position: absolute; */
+    top: -30px;
     right: -30px;
-    background-size: cover; 
-    background-position: center; 
+    background-size: cover;
+    background-position: center;
 }
 
 .text-main {
@@ -50,14 +55,15 @@
 }
 
 .sub-text {
-    margin-top: 3vh;
+    margin-top: 30px;
     width: 550px;
 }
 
-.main-button{
+.main-button {
     margin-top: 40px;
-  }
-  .main-button button {
+}
+
+.main-button button {
     font-size: 18px;
     display: inline-flex;
     padding: 20px 100px;
@@ -68,12 +74,41 @@
     background: #B5ACA3;
     color: white;
     border: none;
-    cursor: pointer; 
-  }
+    cursor: pointer;
+}
 
-  
-  @media screen and (max-width: 768px) {
-  
+@media screen and (max-width: 1180px) {
+    .text-main {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .main-button {
+        display: flex;
+        justify-content: center;
+    }
+
+    
+}
+
+@media screen and (max-width: 1300px) {
+    .container {
+        margin-left: 3vw;
+
+    }
+
+    .about-container {
+        padding-left: 70px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .img-ctn {
+        margin-right: 30px;
+    }
+
     .container {
         padding-top: 5vh;
         padding-bottom: 5vh;
@@ -81,24 +116,22 @@
         flex-wrap: wrap;
         justify-content: center;
         position: relative;
-        border-bottom: 1px solid #C1C1C1;
     }
 
     .brown-container {
         margin-top: 5vh;
-
         width: 75vw;
         height: 25vh;
 
     }
-    
+
     .photo-container {
         margin-top: 5vh;
-
         width: 75vw;
         height: 25vh;
- 
+
     }
+
     .about-container {
         text-align: left;
         padding-left: 0;
@@ -106,14 +139,17 @@
         padding-right: 5vw;
         padding-left: 5vw;
     }
-    .text-main{
+
+    .text-main {
         margin-top: 5vh;
     }
-    .sub-text{
-        width: 100%;
-    }
-    .main-button button{
+
+    .sub-text {
         width: 100%;
     }
 
-  }
+    .main-button button {
+        width: 100%;
+    }
+
+}
