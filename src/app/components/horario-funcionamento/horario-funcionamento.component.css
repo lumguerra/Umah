@@ -42,6 +42,7 @@
     border-radius: 20px;
     background: white;
     background-image: url('../../../assets/umah-clinic-sobre.png');
+    background-size: cover;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
     position: absolute;
     top: 41%;
@@ -76,6 +77,7 @@
 
 .card-photo {
     padding-top: 70px;
+    margin-right: 30px;
 }
 
 @media screen and (max-width: 1220px) {
@@ -106,7 +108,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 950px) {
 
     .card-photo{
         margin: 30px;

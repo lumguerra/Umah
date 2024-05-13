@@ -1,41 +1,46 @@
-
 .navbar {
-    position: sticky;
-    top: 0;
-    height: 10vh;
-    background-color: #ffffff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 40px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    z-index: 1000;
-  }
-  
-  .logo {
-    height: 50px;
-  }
-  
-  .links a {
-    text-decoration: none;
-    margin-left: 30px;
-    color: #8496A7;
-    font-weight: bold;
-    font-size: 16px;
-    transition: font-size 0.3s, color 0.3s
+  position: sticky;
+  top: 0;
+  height: 10vh;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.logo {
+  height: 50px;
+}
+
+.links a {
+  text-decoration: none;
+  margin-left: 30px;
+  color: #8496A7;
+  font-weight: bold;
+  font-size: 16px;
+  transition: font-size 0.3s, color 0.3s
+}
+
+.links a:hover {
+  color: #AB9A89;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .navbar {
+    justify-content: center;
   }
 
-  .links a:hover {
-    color: #AB9A89; 
-    font-size: 16px; 
-    cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+  .links{
+    display: none;
   }
-  
- 
-  @media screen and (max-width: 768px) {
-  
-    .navbar {
-      justify-content: center;
-    }
-  
-  }
+}
