@@ -14,23 +14,25 @@
     
     <div class="sub-container mensagem">
         <h2>Enviar Mensagem</h2>
-        <div class="area">
-            <div class="form-row">
-                <div class="form-group col-md-6">
-                    <input type="text" class="form-control" id="inputNome" placeholder="Seu Nome">
+        <form id="contact-form" (ngSubmit)="sendEmail()" #contactForm="ngForm">
+            <div class="area">
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <input type="text" id="user_name" name="user_name" class="form-control" placeholder="Seu Nome" [(ngModel)]="templateParams.user_name" required>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <input type="email" id="user_email" name="user_email" class="form-control" placeholder="Seu Email" [(ngModel)]="templateParams.user_email" required>
+                    </div>
                 </div>
-                <div class="form-group col-md-6">
-                    <input type="email" class="form-control" id="inputEmail" placeholder="Seu Email">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="subject" placeholder="Assunto" name="subject"[(ngModel)]="templateParams.subject" required>
                 </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" rows="5" class="form-control" placeholder="Mensagem" [(ngModel)]="templateParams.message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
             </div>
-            <div class="form-group">
-                <input type="text" class="form-control" id="inputAssunto" placeholder="Assunto">
-            </div>
-            <div class="form-group">
-                <textarea class="form-control" id="textareaMensagem" rows="5" placeholder="Sua mensagem"></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Enviar</button>
-        </div>
+        </form>
     </div>
 
 </div>
